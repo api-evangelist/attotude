@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: probed
+source: live probes of https://www.attotude.com/.well-known/*
+host: https://www.attotude.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: >-
+  No .well-known discovery documents are published. AttoTude is a semiconductor /
+  data-center hardware company with no public API, developer portal, or OAuth
+  surface; this negative record prevents redundant re-probing on future runs.
