@@ -13,6 +13,17 @@ description: >-
   portal, or SDK; the profile below is enriched only with the identity and
   domain-security facts the pipeline could verify.
 url: https://raw.githubusercontent.com/api-evangelist/attotude/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
